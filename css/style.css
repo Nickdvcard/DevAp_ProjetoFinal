@@ -739,6 +739,7 @@ textarea {
 
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 #footer a {
@@ -765,6 +766,7 @@ textarea {
   min-width: 5vw;
   min-height: 5vh;
   cursor: pointer;
+  margin-left: 3vw;
 }
 
 #footer p:hover,
@@ -1054,8 +1056,13 @@ a:hover {
 
   #footer .fa-brands {
 
-    min-width: 15vw;
-    margin-left: -2vw;
+    min-width: 10vw;
+    margin-left: 3vw;
+  }
+
+  .links.ic span {
+
+    align-items: center;
   }
 
   #footer {
