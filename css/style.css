@@ -619,6 +619,13 @@ header .navbar #menu a:hover {
   font-size: 1.15em;
 }
 
+.tipocont.inf{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .fa-solid img{
 
   height: 100%;
@@ -728,6 +735,11 @@ textarea {
   flex-direction: column;
 }
 
+.links.ic span {
+
+  display: flex;
+  flex-direction: row;
+}
 
 #footer a {
 
