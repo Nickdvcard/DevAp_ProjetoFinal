@@ -635,10 +635,10 @@ header .navbar #menu a:hover {
 
 .fa-solid {
   
-  width: 8vw;
-  height: 8vh;
-  min-width: 8vw;
-  min-height: 8vh;
+  width: 6vw;
+  height: 6vh;
+  min-width: 6vw;
+  min-height: 6vh;
 }
 
 .tipocont.formulario {
@@ -735,6 +735,7 @@ textarea {
   flex-direction: column;
 }
 
+
 .links.ic span {
 
   display: flex;
@@ -763,8 +764,6 @@ textarea {
 
   width: 5vw;
   height: 5vh;
-  min-width: 5vw;
-  min-height: 5vh;
   cursor: pointer;
   margin-left: 3vw;
 }
@@ -1057,7 +1056,6 @@ a:hover {
   #footer .fa-brands {
 
     min-width: 10vw;
-    margin-left: 3vw;
   }
 
   .links.ic span {
