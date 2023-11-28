@@ -10,9 +10,6 @@
     <meta name="description" content="Site de empresa de _______ utilizando HTML, CSS e Javascript relacionado 
     ao trabalho da matéria de Desenvolvimento de aplicaçãoes">
     <link rel="icon" href="imagens/icone.jpg" type="image/x-icon" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>NOme do site </title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
@@ -23,8 +20,10 @@
         <article id="logo">
             <img src="imagens/logoplaceholder.png" alt="logo da empresa">
         </article>
-
-        <i class="fa-solid fa-bars barra"></i>
+        
+        <section class="barra">
+            <img src="imagens/barras.png" alt="barras de navegação">
+        </section>
 
         <nav class="navbar">
             <ul id="menu">
@@ -131,7 +130,9 @@
             <article class="linhas um">
 
                 <section class="emblemas">
-                    <i class="fa-solid fa-users"></i>
+                    <section class="iserv">
+                        <img src="imagens/iconecasa.png" alt="icone da linha de casa">
+                    </section>
                     <h2>Gestão de pessoas</h2>
                     <p>
                         Pellentesque semper elementum nibh vel rutrum. Integer eu leo posuere, semper mi vitae, sagittis
@@ -141,7 +142,9 @@
                 </section>
 
                 <section class="emblemas">
-                    <i class="fa-solid fa-briefcase"></i>
+                    <section class="iserv">
+                        <img src="imagens/iconefabrica.png" alt="icone da linha de indústrias">
+                    </section>
                     <h2>Auxilio em negociações</h2>
                     <p>
                         Pellentesque semper elementum nibh vel rutrum. Integer eu leo posuere, semper mi vitae, sagittis
@@ -151,7 +154,9 @@
                 </section>
 
                 <section class="emblemas">
-                    <i class="fa-regular fa-file-lines"></i>
+                    <section class="iserv">
+                        <img src="imagens/iconeescritório.png" alt="icone da linha de escritório">
+                    </section>
                     <h2>Elaboração e análise de contratos</h2>
                     <p>
                         Pellentesque semper elementum nibh vel rutrum. Integer eu leo posuere, semper mi vitae, sagittis
@@ -164,7 +169,9 @@
             <article class="linhas dois">
 
                 <section class="emblemas">
-                    <i class="fa-regular fa-comments"></i>
+                    <section class="iserv">
+                        <img src="imagens/iconeescritório.png" alt="icone da linha de escritório">
+                    </section>
                     <h2>Construção de relações pessoais</h2>
                     <p>
                         Pellentesque semper elementum nibh vel rutrum. Integer eu leo posuere, semper mi vitae, sagittis
@@ -174,7 +181,9 @@
                 </section>
 
                 <section class="emblemas">
-                    <i class="fa-solid fa-chart-column"></i>
+                    <section class="iserv">
+                        <img src="imagens/iconeescritório.png" alt="icone da linha de escritório">
+                    </section>
                     <h2 id="esp">Otimização de lucro e eficiência</h2>
                     <p>
                         Pellentesque semper elementum nibh vel rutrum. Integer eu leo posuere, semper mi vitae, sagittis
@@ -184,7 +193,9 @@
                 </section>
 
                 <section class="emblemas">
-                    <i class="fa-regular fa-clock"></i>
+                    <section class="iserv">
+                        <img src="imagens/iconeescritório.png" alt="icone da linha de escritório">
+                    </section>
                     <h2>Gestão de tempo</h2>
                     <p>
                         Te ajudamos a utilizar o seu tempo de forma mais eficiente, a fim de diminuir seu tempo árduo
@@ -448,19 +459,25 @@
 
             <article id="modoscont">
                 <section class="tipocont">
-                    <i class="fa-solid fa-phone-volume"></i>
+                    <section class="fa-solid">
+                        <img src="imagens/iconefone.png" alt="icone de telefone/ligação">
+                    </section>
                     <p>+55 (48) 9999999-9999</p>
                     <p>seg. a sex. das 8:00 ás 18:00</p>
                 </section>
 
                 <section class="tipocont">
-                    <i class="fa-solid fa-location-dot"></i>
+                    <section class="fa-solid">
+                        <img src="imagens/iconelocal.png" alt="icone de ponto de localização">
+                    </section>
                     <p>Nome da cidade</p>
                     <p>Santa Catarina</p>
                 </section>
 
                 <section class="tipocont">
-                    <i class="fa-solid fa-envelope"></i>
+                    <section class="fa-solid">
+                        <img src="imagens/iconeenvelope.png" alt="icone de envelope">
+                    </section>
                     <p>lojalegal@gmail.com</p>
                     <p>seg. a sex. das 8:00 ás 18:00</p>
                 </section>
@@ -510,10 +527,21 @@
             <section class="links">
                 <p class="tituloslink">Nos siga nas redes sociais: </p>
                 <span>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-tiktok"></i>
+                    <section class="fa-brands">
+                        <img src="imagens/iconefacebook.png" alt="icone facebook">
+                    </section>
+                    
+                    <section class="fa-brands">
+                        <img src="imagens/iconeinsta.png" alt="icone instagram">
+                    </section>
+                    
+                    <section class="fa-brands">
+                        <img src="imagens/iconetwitterx.png" alt="icone twitter/X">
+                    </section>
+                    
+                    <section class="fa-brands">
+                        <img src="imagens/iconepinterest.png" alt="icone pinterest">
+                    </section>
                 </span>
             </section>
         </article>

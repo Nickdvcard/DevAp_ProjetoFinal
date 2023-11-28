@@ -39,8 +39,10 @@ header {
 }
 
 #logo img {
+
   height: 100%;
   width: 100%;
+  object-fit: fill;
 }
 
 #logo {
@@ -67,16 +69,24 @@ header .navbar #menu a {
   margin-right: 2vw;
 }
 
+header .barra img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 header .barra {
 
-  font-size: 1.6em;
-  color: black;
+  height: 5vh;
+  width: 9vw;
+  min-width: 9vw;
+  min-height: 5vh;
   cursor: pointer;
   display: none;
 }
 
-header .navbar #menu a:hover,
-header .barra:hover {
+header .navbar #menu a:hover {
 
   color: red;
 }
@@ -328,7 +338,9 @@ header .barra:hover {
 }
 
 .linhas .emblemas {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   padding: 2.9em;
   font-size: 0.8em;
@@ -340,9 +352,20 @@ header .barra:hover {
   background-color: white;
 }
 
-.linhas .emblemas i {
+.linhas .emblemas .iserv img {
 
-  font-size: 4em;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.linhas .emblemas .iserv {
+
+  align-self: center;
+  width: 6vw;
+  height: 6vh;
+  min-width: 12vw;
+  min-height: 7vh;
 }
 
 .linhas .emblemas h2 {
@@ -596,9 +619,19 @@ header .barra:hover {
   font-size: 1.15em;
 }
 
-.fa-solid {
+.fa-solid img{
 
-  font-size: 1.6em;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.fa-solid {
+  
+  width: 8vw;
+  height: 8vh;
+  min-width: 8vw;
+  min-height: 8vh;
 }
 
 .tipocont.formulario {
@@ -706,15 +739,23 @@ textarea {
   color: red;
 }
 
+#footer .fa-brands img {
+
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
 #footer .fa-brands {
 
-  font-size: 1.8em;
-  margin: 1vw;
+  width: 5vw;
+  height: 5vh;
+  min-width: 5vw;
+  min-height: 5vh;
   cursor: pointer;
 }
 
 #footer p:hover,
-.fa-brands:hover,
 a:hover {
 
   cursor: pointer;
@@ -971,7 +1012,7 @@ a:hover {
 
   .fa-solid {
 
-    margin-top: 2vh;
+    margin-top: 4vh;
   }
 
   .tipocont.formulario p {
@@ -997,6 +1038,12 @@ a:hover {
 
     display: flex;
     flex-direction: column;
+  }
+
+  #footer .fa-brands {
+
+    min-width: 15vw;
+    margin-left: -2vw;
   }
 
   #footer {

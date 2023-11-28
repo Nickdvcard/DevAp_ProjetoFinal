@@ -2,7 +2,7 @@
 
 //menu dropdwon do header
 let navbar = document.querySelector('.navbar');
-let fabars = document.querySelector('.fa-bars');
+let fabars = document.querySelector('.barra');
 
 fabars.addEventListener('click', () => {
 
