@@ -223,7 +223,7 @@ header .navbar #menu a:hover {
   border: 2.5px solid var(--cor-font-color); /* var pra fonte */
   color: white;
   cursor: pointer;
-  background: linear-gradient(to right, transparent 50%, #e41c38 50%); 
+  background: linear-gradient(to right, transparent 50%, #39A7FF 50%); 
   background-position: left;
   background-size: 200%;
   transition: background-position 0.5s;
@@ -849,7 +849,7 @@ a:hover {
   .linhap .produtos .textoport h2 {
 
     font-size: 1.2em;
-    color: #e41c38;
+    color: var(--cor-font-color);
   }
 
   .linhap .produtos .textoport p {
@@ -904,7 +904,7 @@ a:hover {
 
   header .navbar #menu a:hover {
 
-    border: 1px solid red;
+    border: 1px solid var(--cor-font-color);
     border-width: 100%;
   }
 
@@ -918,6 +918,9 @@ a:hover {
   .textoslide.ts1 p {
 
     font-size: 0.8em;
+  }
+  .bcad-port{
+    background-color: var(--cor-font-color);
   }
 
   #bcad {
@@ -977,7 +980,7 @@ a:hover {
   .linhap .produtos .textoport h2 {
 
     font-size: 1.5em;
-    color: #e41c38;
+    color: var(--cor-font-color);
   }
 
   .linhap .produtos .textoport p {
