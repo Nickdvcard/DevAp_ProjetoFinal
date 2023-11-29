@@ -51,10 +51,7 @@ header {
 }
 
 #logo {
-  width: 7vh;
-  height: 3vw;
   margin-left: 4vw;
-  align-items: center;
 }
 
 /* header .navbar {
