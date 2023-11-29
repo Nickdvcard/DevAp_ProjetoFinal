@@ -3,6 +3,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
+:root {
+  --cor-font-color: #39A7FF;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -195,7 +199,7 @@ header .navbar #menu a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #e41c38;
+  color: var(--cor-font-color); /* var pra fonte */
   text-shadow:
     3px 3px 0 #000,
     -1px -1px 0 #000,
@@ -215,10 +219,10 @@ header .navbar #menu a:hover {
   margin-top: 3.2vh;
   font-size: 0.8em;
   letter-spacing: 0.4px;
-  border: 2.5px solid #e41c38;
+  border: 2.5px solid var(--cor-font-color); /* var pra fonte */
   color: white;
   cursor: pointer;
-  background: linear-gradient(to right, transparent 50%, #e41c38 50%);
+  background: linear-gradient(to right, transparent 50%, #e41c38 50%); 
   background-position: left;
   background-size: 200%;
   transition: background-position 0.5s;
@@ -254,7 +258,7 @@ header .navbar #menu a:hover {
 
   font-size: 2em;
   text-align: center;
-  color: #e41c38;
+  color: var(--cor-font-color); /* var pra fonte */
 }
 
 .cab.sobre h3 {
@@ -458,7 +462,7 @@ header .navbar #menu a:hover {
 
   font-size: 1.5em;
   padding-top: 0.3vh;
-  color: #e41c38;
+  color: var(--cor-font-color); /* var pra fonte */
 }
 
 .linhap .produtos .textoport p {
@@ -541,7 +545,7 @@ header .navbar #menu a:hover {
 .controles .arrow:hover {
 
   opacity: 0.8;
-  color: #e41c38;
+  color: var(--cor-font-color); /* var pra fonte */
 }
 
 .arrow.left {
@@ -670,7 +674,7 @@ input {
   margin-top: 1.5vh;
   border: 2px solid rgb(160, 160, 160);
   height: 5vh;
-  color: #e41c38;
+  color: var(--cor-font-color); /* var pra fonte */
   cursor: text;
   border-radius: 5px;
 }
@@ -680,7 +684,7 @@ textarea {
   margin-top: 1.5vh;
   border: 2px solid rgb(160, 160, 160);
   height: 11vh;
-  color: #e41c38;
+  color: var(--cor-font-color); /* var pra fonte */
   resize: none;
   cursor: text;
   border-radius: 5px;
@@ -697,8 +701,8 @@ textarea {
 
 .bcad.form:hover {
 
-  border: 2.5px solid #e41c38;
-  background-color: #e41c38;
+  border: 2.5px solid var(--cor-font-color); /* var pra fonte */
+  background-color: var(--cor-font-color); /* var pra fonte */
   background-position: right;
   color: black;
 }
@@ -750,7 +754,7 @@ textarea {
 
 #footer a:hover {
 
-  color: red;
+  color: var(--cor-font-color); /* var pra fonte */
 }
 
 #footer .fa-brands img {
@@ -772,7 +776,7 @@ textarea {
 a:hover {
 
   cursor: pointer;
-  color: #e41c38;
+  color: var(--cor-font-color); /* var pra fonte */
 }
 
 #footer .tituloslink:hover {
