@@ -5,6 +5,7 @@
 
 :root {
   --cor-font-color: #39A7FF;
+  --cor-font-form-color: #87C4FF;
 }
 
 * {
@@ -53,6 +54,8 @@ header {
   width: 7vh;
   height: 3vw;
   margin-left: 4vw;
+  border: solid var(--cor-font-color);
+  border-radius: 8px;
 }
 
 /* header .navbar {
@@ -92,7 +95,7 @@ header .barra {
 
 header .navbar #menu a:hover {
 
-  color: red;
+  color: var(--cor-font-color); /* var pra fonte */
 }
 
 /*Home -----------------------------------------------------------------------*/
@@ -693,8 +696,8 @@ textarea {
 .bcad.form {
 
   transition: none;
-  border: 2.5px solid lightcoral;
-  background-color: lightcoral;
+  border: 2.5px solid var(--cor-font-form-color);  /* var pra fonte */
+  background-color: var(--cor-font-form-color); /* var pra fonte */
   cursor: pointer;
   border-radius: 5px;
 }
