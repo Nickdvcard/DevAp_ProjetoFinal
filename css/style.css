@@ -54,8 +54,6 @@ header {
   width: 7vh;
   height: 3vw;
   margin-left: 4vw;
-  border: solid var(--cor-font-color);
-  border-radius: 8px;
 }
 
 /* header .navbar {
