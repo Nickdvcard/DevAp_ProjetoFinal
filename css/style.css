@@ -119,6 +119,7 @@ header .navbar #menu a:hover {
   transition-delay: 100ms;
 }
 
+
 .slide.atual {
   opacity: 1;
   transition-delay: 0ms;
